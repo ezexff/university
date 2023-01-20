@@ -1,0 +1,38 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+float S(float x, float y, float z);
+
+float _tmain(float argc, _TCHAR* argv[])
+{
+int a,b,c;
+cin>>a>>b>>c;
+cout<<S(a,b,c);
+system("pause");
+	return 0;
+}
+float S(float x, float y, float z){return sqrt(((x+y+z)/2)*(((x+y+z)/2)-x)*(((x+y+z)/2)-y)*(((x+y+z)/2)-z));}
+
+
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+float Z(float x);
+
+float _tmain(float argc, _TCHAR* argv[])
+{
+int a;
+cin>>a;
+cout<<Z(a);
+system("pause");
+	return 0;
+}
+float Z(float x){
+float m[10];
+for (int i=0;i<=9;i++){cin>>m[i];
+if(m[i]>x) m[i]=x; cout<<m[i]<<endl;}
+return 0;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #4169E0;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Tab1Controller">
+   <children>
+      <TextArea fx:id="tab1TextArea1" layoutX="15.0" layoutY="27.0" prefHeight="324.0" prefWidth="670.0" />
+      <Label layoutX="24.0" layoutY="4.0" text="Исходный текст" textFill="WHITE" />
+      <Button fx:id="tab1btn1" layoutX="496.0" layoutY="363.0" mnemonicParsing="false" onAction="#tab1btn1Clicked" text="Выполнить извлечение данных" />
+      <Button fx:id="tab1btn2" layoutX="265.0" layoutY="363.0" mnemonicParsing="false" onAction="#tab1btn2Clicked" text="Найти количество пробелов в тексте" />
+      <Button fx:id="tab1btn3" layoutX="96.0" layoutY="363.0" mnemonicParsing="false" onAction="#tab1btn3Clicked" text="Удалить лишние пробелы" />
+   </children>
+</AnchorPane>

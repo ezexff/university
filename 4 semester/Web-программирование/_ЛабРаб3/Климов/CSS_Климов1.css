@@ -1,0 +1,63 @@
+h1{
+	text-shadow: 8px 8px 0 RGBA (255,0,180,0.5);
+	font-family: Century Gothic, arial;
+	text-shadow: 0 0 1px;
+	color: royalblue;
+	font-size: 25;
+}
+img{
+	box-shadow: 0 0 5px;	
+}
+p{
+	font-family: verdana;
+	font-size: 14;
+}
+body{
+margin:0px;
+  background: #c4c7cb;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae);
+}
+
+
+.top {
+    text-align: center;
+    border: 3px solid green;
+	height: 55;	
+	background: white;
+}
+.left{
+width: 400; /* Ширина блока  */
+margin: auto; /* Отступ от блока */
+background: #ffffff; /* Фон блока */
+border-radius: 5px; /* Скругление углов */
+padding: 15px;  /* Отступ внутри блока */
+overflow: auto; /* Полоса прокрутки */
+float: left;} /* Выравнивание блока по левому краю*/
+
+.center{
+width: 700px; /* Ширина блока  */
+margin: auto; /* Отступ от блока */
+background: #ffffff; /* Фон блока */
+border-radius: 5px; /* Скругление углов */
+padding: 15px;  /* Отступ внутри блока */
+overflow: auto; /* Полоса прокрутки */
+float: left;} /* Выравнивание блока по левому краю*/
+
+.empty{
+width: 50px; /* Ширина блока  */
+height: 400px; /* Высота блока */
+margin: auto; /* Отступ от блока */
+float: left;} /* Выравнивание блока по левому краю*/
+
+.right{
+width: 400px; /* Ширина блока  */
+margin: auto; /* Отступ от блока */
+background: #ffffff; /* Фон блока */
+border-radius: 5px; /* Скругление углов */
+padding: 15px;  /* Отступ внутри блока */
+overflow: auto; /* Полоса прокрутки */
+float: left;} /* Выравнивание блока по левому краю*/
+

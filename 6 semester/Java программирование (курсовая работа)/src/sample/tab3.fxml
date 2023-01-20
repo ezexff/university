@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #4169E0;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Tab3Controller">
+   <children>
+      <TextArea fx:id="tab3TextArea1" layoutX="15.0" layoutY="27.0" prefHeight="362.0" prefWidth="670.0" />
+      <Label layoutX="24.0" layoutY="4.0" text="Результат скрытия/извлечения данных" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,108 @@
+  #centerLayer {
+    position: absolute;
+    width: 1080px;
+    left: 0%;
+    right: 0%;
+	margin: auto;
+    background: #ffffff;
+	border-radius:4px;
+    padding: 20px;
+    resize: none;
+   }
+   #topLayer {
+    position: absolute;
+    resize: none;
+   } 
+   
+h55 {
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    font-size: 70px;
+	font-family: Century Gothic, arial;
+	color: white;
+}
+h1{
+	text-shadow: 8px 8px 0 RGBA (255,0,180,0.5);
+	font-family: Century Gothic, arial;
+	text-shadow: 0 0 1px;
+	color: royalblue;
+}
+img{box-shadow: 0 0 5px;	
+}
+
+   body {
+    background-image: url(../res/bg4.jpg);
+   }
+   
+   body {height: padding: 0; margin: 0;}
+
+
+    #header {
+		
+      background: #lalala;
+      color: white;
+      font-family: Droid Sans;
+      font-size: 14px;
+      line-height: 1.3em;
+      text-align: center;
+      padding: 10px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.2);
+      width:1920px;
+	  background-image: url(../res/bg3.jpg);
+      box-sizing:border-box;
+	  margin: auto;
+    }
+   #header { z-index: 1; }
+   
+body{
+  background: #c4c7cb;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+	#menu{
+		width:970;
+	}
+		#menu ul{
+			list-style:none;
+		}
+			#menu li{
+				list-style:none;
+				display:inline;
+				margin:0 5px;
+			}
+				#menu li a{
+					color:#b5b4b4;
+					text-transform:uppercase;
+					font-size:24px;
+					font-weight:bold;
+					text-decoration:none;
+					font-family: Century Gothic;
+					border-bottom:5px solid #b5b4b4;
+					cursor:pointer;
+					padding:0 0 1px 0;
+				}
+					#menu li a:hover{
+						border-bottom:5px solid #008fd5;
+						color:#008fd5;
+						text-decoration:none;
+					}
+				#menu li a.current{
+					border-bottom:5px solid #b5b4b4;
+					color:#008fd5;
+					text-transform:uppercase;
+					font-size:25px;
+					font-weight:bold;
+					text-decoration:none;
+				}
+

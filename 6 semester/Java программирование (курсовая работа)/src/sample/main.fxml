@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="700.0" style="-fx-background-color: #4169E0;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.MainController">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="700.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+              <MenuItem fx:id="menu1btn1" mnemonicParsing="false" onAction="#menu1btn1Clicked" text="Открыть исходный текст" />
+                  <MenuItem fx:id="menu1btn2" mnemonicParsing="false" onAction="#menu1btn2Clicked" text="Открыть текст для скрытия" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="menu1btn3" mnemonicParsing="false" onAction="#menu1btn3Clicked" text="Сохранить результат" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Справка">
+            <items>
+              <MenuItem fx:id="menu2btn1" mnemonicParsing="false" onAction="#menu2btn1Clicked" text="О программе" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane fx:id="tabPane" layoutY="25.0" prefHeight="430.0" prefWidth="700.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Исходный текст">
+               <content>
+                  <fx:include fx:id="tab1" source="tab1.fxml" />
+               </content>
+          </Tab>
+          <Tab text="Текст для скрытия">
+               <content>
+                  <fx:include fx:id="tab2" source="tab2.fxml" />
+               </content>
+          </Tab>
+            <Tab text="Результат скрытия/извлечения данных">
+               <content>
+                  <fx:include fx:id="tab3" source="tab3.fxml" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
